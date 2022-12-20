@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AdminConsoleLauncher.exe" version="1.0.1.17" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="control_panel_3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AdminConsoleLauncher" version="1.1.0.17" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AdminConsoleLauncher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AdminConsoleLauncher.exe" size="72192">
+      <assemblyIdentity name="AdminConsoleLauncher" version="1.1.0.17" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hxURlFnm4Twf/PWhuJvql5ChjEXYbeVJqI+fRzb6W1s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AdminConsole.exe" size="393216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sLPaNfiJ2fRtYvfLmtovB+2dQ7lPsbF7vM1JB0c/BJo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AdminConsole.xml" size="786">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HdaO9ZNNJL4jg/CTm4kF8nR8MdhNEqHJPFh+XtbszPU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AdminConsoleLauncher.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eSEJjkfolEEv39DK/g+IzGhJd0CZjqwXxowAEpBp2AM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="control_panel_3.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>95/cHJcB5kiUyjDhbUc8P3tP9KeXVT4LWbam+v1YCBk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxDataRS26.bpl" size="686080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o9yQYJSGg/icx25sccUyOijaq+F4Ha5vrGZzMMa/Spk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxEditorsRS26.bpl" size="5822464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6vIEx9CSe/Z2HaDpHn5W2i9Tgnd+ptKS7lM8vtlyFoU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxExportRS26.bpl" size="344064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LUI3hB6nzEb/a3h1L9Oz5mbrufst6tIDxnX7fKcxCp8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxGridRS26.bpl" size="4232192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tp9P6s9Ye5LtlqyutqvAGv6JjkPMxtw03RpgkcwIv3I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxLibraryRS26.bpl" size="4065280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oWqnRkacWScwNqHDWLhx49p8CDBIPJbPKall0mmnQgU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxPageControldxBarPopupMenuRS26.bpl" size="37888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JR80yor0pylQ+2peUSiiO6/tXAF3WwEp1TpHNuJquG0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxPageControlRS26.bpl" size="429568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zHzkVCK84l129a1L8NNR9IzPX/glIOUP2jUmeF1XNJk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxPivotGridRS26.bpl" size="1080832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8QPemEl5q4k3AzioQ3wWvO0lSh4VcWuDRufKnK8BIhs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxSchedulerRS26.bpl" size="2787328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ae/PgHB9x/LLMLONRjbZ1aEZqpSURS7YmKh7Wg1Jrb0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxTreeListdxBarPopupMenuRS26.bpl" size="49152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aLeOnqlYhllxDeX5tSJfg+wNTtJAnfxlQ9GooQ11/MI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cxTreeListRS26.bpl" size="1063936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lcnwk8FOXudbRvokiymgJc2l0bLbzrsqmLmdtqiBZ9E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="D26OPack.bpl" size="168960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aH81uh+fUEb4YERg6WJ2U5mbEJ3JiBWtRCbbMBgGqtI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="D26XLR4_R.bpl" size="435712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8YWGcK4MKVr2yGMfOJT8v3R3A5V7lMP4LVha7bz+LVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dac260.bpl" size="1879040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SXLVjLUFTu1683Hzows77eyehiXp6dxCiVdWQ2axQC8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dbrtl260.bpl" size="686968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YznWTYw8sVJPNJSx0lU6DhDpR3vRgmTQXkF8jgvQOJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dclcommon260.bpl" size="1051000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gkXrrG2pn7jO1wjEB70Uc+iyMd5DjijVLrDwa0cgrh8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dcldb260.bpl" size="512888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oz0Xdkm3DlWAdv9+52y5C66RU82OCucHqpaAYULL2yQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dclstd260.bpl" size="1277304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WrmFhKZ8vdAGMoV0oc858KuCWCNxVR+n4dnQtLhZfuE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="designide260.bpl" size="2045816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MtmLQc0hTxKYFFg1hHcWmvQOYfyejCIVpUL/eh/OOpw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="doa41d103.bpl" size="1307136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h2b2C8UtW2vMvZ1A6dQDZG6cwEiG7IpK4MNydM91QRU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dsnap260.bpl" size="416632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RIw0K0CRLOTiRa0ALA9g9Sm5UrBPptiiisBGw6WOTqw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxBarRS26.bpl" size="1821184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S4gFO7z6Gwm+UXCWb5vk6cL5J1wxwZshl3NNs2BhGns=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxComnRS26.bpl" size="57344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>776PMZeE51o5naoI9HcDvhhCivIjjgQWy/+LdESn9dk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxCoreRS26.bpl" size="1516544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CfZUbASkNtIImgkX+UaGyBvGhNRGGp9pkbjO0zng82Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxDockingRS26.bpl" size="776704">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XHjIauE/LwYx1JjX43s5yz/oBykYLqyDgpJVKd27kA4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxGDIPlusRS26.bpl" size="340480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YpSsRL9ZT8nsMN6pYCA2oVKtO5jDVoK9Eo7zl2irYG0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxLayoutControlRS26.bpl" size="988160">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kDzkmD5G6QAXsGRm7tfsRW+lp3iC3I14649xYMPND38=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxmdsRS26.bpl" size="153088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r7w1s/QRae2TGzf+VkdlapW0k1RZDZ4UXmYNhTB2vUY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxOfficeCoreRS26.bpl" size="774656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>imnrZNn644IsfxjpB2GSS2ltRjOIKOEBuMG64EFxTww=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxServerModeRS26.bpl" size="420864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SUGekLRkrSoL/87vz4DP9Tf/LrS8vKFO6tFoGjA8Prc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinBlackRS26.bpl" size="580096">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GGObML9uBddCUSA/EjXO3A0E4iG1ebGwpZsj2QJOHJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinBlueprintRS26.bpl" size="335872">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WZ4DB1RUr+5QZmVck+J11xWSxKfJTP+/hLqCkRISg7g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinBlueRS26.bpl" size="581120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6kznNNikioLwokGI4SFITBUUUpkzudR79WlDpz5BvzI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinCaramelRS26.bpl" size="563200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pugce4cc+OnlkKQCI2qEKT6l3zMO2+fhL0oAAgHGNUk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinCoffeeRS26.bpl" size="409088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G7mCBqlcxNmjaWweyVr5D+qCf5HB4RFsTFUzgNxF2dw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinDarkRoomRS26.bpl" size="407040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Nc80CHhDXmOhGXB1vXWSiIloQK2SxGTY0mWDZCRnNUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinDarkSideRS26.bpl" size="564224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vu8Gb03LTYDZ8v6SpQphTkGezi1dhlzdt1UbwhCuNp8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinDevExpressDarkStyleRS26.bpl" size="524288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ltAW6S4oQuL+usYK6XpK64cd6K82xzk/aV5upnRkE1U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinDevExpressStyleRS26.bpl" size="603136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8+bNKVJbWpMgOSdD0RVgNCrttOBTXTSxmI48Uztw8TA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinFoggyRS26.bpl" size="347648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E0tbAlfbcvD18LjcveH4BI43o/xBGiJPsPuZW6rfagg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinGlassOceansRS26.bpl" size="435200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SeHt0OCyMgvLQGkNg2EbL2778GQizc8nSUuEoYvzgZ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinHighContrastRS26.bpl" size="421888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p23fS7B7uCZwPb9cxmwtAQn5xpCKzT24SpK3+jBKOHI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkiniMaginaryRS26.bpl" size="459776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pNLh+PZGyByyCw+ic0VUvQoo9lqt1Pm9PzTLTb8XGLo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinLilianRS26.bpl" size="468480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wz/5kWeDbAsuisWT6oKiQ1tHqEU2U5sudaVbQXqdOc4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinLiquidSkyRS26.bpl" size="465408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z88cnWpmZ9hOnlTAD2lMWEzR1YSa9Zg9eVUmMO4uF8M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinLondonLiquidSkyRS26.bpl" size="465408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yl0MJjqht8MkTE305bLf5pDXY7BhhuAwPyit1FK5Y/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinMcSkinRS26.bpl" size="462336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0K/+w9fmzSPh0wWSH8IYupJ9QpKUS5vH55qPa0zCQMM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinMetropolisDarkRS26.bpl" size="324608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ar+r6G/cIo1zOw4iZ5nop/3HEZhRoHTFEAjDQaQwdhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinMetropolisRS26.bpl" size="333312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oja51JKfF2Vb4hrm5e4knv5XdcxS8MRDu6cZZpz0Dms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinMoneyTwinsRS26.bpl" size="605696">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ONCX1HVEP/jHh1bBp8jsKGTlPbSPoy+NSPy3rZkpC88=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2007BlackRS26.bpl" size="585728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bHR2Bwxnc+hpGO6+oqwoGpHROgBmYT+E63ySAMigVAI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2007BlueRS26.bpl" size="590336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>klF8rmjnFtG9Roa3tfyQgk1TAVHi+ri2Kdvyi+QDGrE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2007GreenRS26.bpl" size="603136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yUHYO37LzqX1O7a1oYmVR0ffn9124Vjk+LAwQvS4jeo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2007PinkRS26.bpl" size="602624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4soWgWV6aAqwRKdGYhssgBiO9KV0woR4iKat/Piy9eQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2007SilverRS26.bpl" size="588288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fpjOFN4amZUMpHcTJArmc92mMCyKH3pZy5jJqALJHEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2010BlackRS26.bpl" size="580608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D6VD/+KdbkjRx5Aj/z5CN5emecIJCDyq9+BWl8Qx8/k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2010BlueRS26.bpl" size="642048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IdKTuAorGt3QIKhu4maoBwO9DaeOPIh1g377/dAGRNA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2010SilverRS26.bpl" size="583168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q69iTQTXKuMVWkEKsp5FpzxDHPucpKmKtUMofErhAn0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2013DarkGrayRS26.bpl" size="399360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yFnN5vl2Rez3cyTCLwBBadZtdQbYpSTMyLUx+PQOfUY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2013LightGrayRS26.bpl" size="404480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gKElM6S2nsBQNQa/5XyY1CxVUjoPhlS7eActGge/k60=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2013WhiteRS26.bpl" size="402432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YTu3kslnPm+l5whhMi2tIEe7OJPLHv4eMwK5XNg272c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2016ColorfulRS26.bpl" size="321536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5Uoj8LootqfISZLDRbXXpZlmMxsCc4bsPxIVC3ljA7Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinOffice2016DarkRS26.bpl" size="318464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>szYBv8HKcH/G2lyNZMaeMsIcXSB3Tax22YBTXF3TBns=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinPumpkinRS26.bpl" size="744960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0zjVW0kuuQFymPEpYq0n2sqaZuasnvrkcPyOqb4tcJM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinsCoreRS26.bpl" size="769536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Di+CICfIMpU36ez9i6jPFxg81iSgAbcWyQT6wff4SOg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinSevenClassicRS26.bpl" size="583168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hx0sZzLUK1l4+f+2fdgG3fGQbphGJZQ309vgEy5RaAE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinSevenRS26.bpl" size="678400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f5wtLDQL9UtZpYJIWq2I6U/Y6lR4g2mZpaiHRbgUA9A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinSharpPlusRS26.bpl" size="437248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sGlFkPl8s6UjLexiBGBsco+zEuakWpcuVPxyDr4Izvk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinSharpRS26.bpl" size="437760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lC65RG4V8tepymonQ6iSE+B5glmcQIxqXyWcHqK+3Io=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinSilverRS26.bpl" size="483328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PhGxx+Jz3f3OC4CxX9baJ1Fzd7ihNh0dXiQAF75fo4A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinSpringTimeRS26.bpl" size="757760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vwee5w4WrRsY9wKLSdYoaGv9nZK+xNHiiEF7bBzmed4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinStardustRS26.bpl" size="466944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EG9e/c0CDxHmzHFCYGmm+xf/TqreZ2saLuw5G8XU2oY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinSummer2008RS26.bpl" size="854528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sZXbaaKyIjWdqS1pXKzNacThyiRv7twGnHamrYTljJ0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinTheAsphaltWorldRS26.bpl" size="411648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UgoHMYD3lNHQssmdzFPNtfl6RvjaGqpyyAiI5ixVab4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinTheBezierRS26.bpl" size="507392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2bbIuj/DixviqcpxoCvHbfSwobRDR+fKxmkeA5k5UIM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinValentineRS26.bpl" size="720896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WVeeWujHeALLYlWEL7mocd9iEgFve0QCG/96L5mTKvY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinVisualStudio2013BlueRS26.bpl" size="318976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x8fIkTx/oF9K6012Bfd2yq83B4jPuw2rW+/e5fhSLiQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinVisualStudio2013DarkRS26.bpl" size="317440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W7E7XKBZv5SCT/ZlmTg5y04GkZw4069IMG8RmhKyXLQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinVisualStudio2013LightRS26.bpl" size="322560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o7NdntDuuRJ0Xwt/pBwgkmD9ERCaE6CRZK2WjMorYZ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinVS2010RS26.bpl" size="531968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wqkTup/0J5HZ5ObEMRDvJL35de31dCbrhE0XR7xWK40=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinWhiteprintRS26.bpl" size="332800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>onrJHId+W042diBVvkSx2StuLWWl/8ms8fKZKLS5Zj8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSkinXmas2008BlueRS26.bpl" size="839168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xWsaVnDhwJtkJigubg/sI/kC9euZuvrFxnTaNTVw8R4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSpreadSheetCoreConditionalFormattingDialogsRS26.bpl" size="344576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uBb1mkVtSUpoXCpcBd7/nknlssg1q3R2PzIZ331/tX4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSpreadSheetCoreDialogsRS26.bpl" size="373248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EXKEqsCu8eZyHNAvx5WmiIQapRGByItxtw1QR0qqmgg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSpreadSheetCoreRS26.bpl" size="2036224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QkbVk2aWokS+WgOL1DEAGhmKOp/YPoxRKh4oPA01YGQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxSpreadSheetRS26.bpl" size="6055936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H0EmXeUjogRrP/mxjohmqswbijgec8vfTgK2BVMOu8I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dxThemeRS26.bpl" size="45568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sy5lLjrPoHcXYphIbM9m+idaHMnYirfdbpRjseMzyZU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ELDataAccess.bpl" size="398336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B6b3RmUAN699KienENS6T2YUAS1UDCPB90BB4ndIpfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ELsysData.bpl" size="49664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kiMTXwu6ywTMs0rOkMNLwLYEoDSnF2c2jB+yx67r1Rs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ELSysForms.bpl" size="45568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LFYCEcnMPSINqT4nOj36O/XKJr8CzgL6Snj6uTMLczY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ELSystem.bpl" size="3043328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tDc/xLthU9ruIhaACRX5tiJMVlSAMOElisGx7E1BqEI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ELThirdParty.bpl" size="166400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PpL60SXnRubJ+2rjdjAUpL3cJIEkz5M5DIE9+QVwi3s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ELUIControls.bpl" size="1219072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fZYHXv7oxufjZFQUhXGzLHsnyJIcJFe3Jsu6/gqRUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ELUtils.bpl" size="513024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PsLBfYheD7ANs9YooIv4gROrMmDaWGXUrnxhRzeH4Bo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FPL.DLL" size="62464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z4oiAKE7wfv/pi2rLowjls4Z/vtHX1TJXNkel3B4lXE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Fplv2.dll" size="65024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/aERHC2SnEJqtBZH0xX8C0hfJGWTj7HYQU1sPSHHXf8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="frx26.bpl" size="3378176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zray/QEH71qcQfRMnE5a9N7KhoNQgpWbM/pFZbqYN0I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="frxDB26.bpl" size="138240">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XMt7BI9ZHkSCuGkV2nQgmDSX81oHTbPiog/rlH+IjS8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="frxe26.bpl" size="1302016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OK4oaHNbpi2iyK0e1RE2WFC7D9flc87vXIuFj9danWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="fs26.bpl" size="491520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UNh1mJO7nMhGLwTgBMYObeS4N8d/pKCQqdEkG4d3GVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="fsDB26.bpl" size="63488">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iA41ip5K3L1CYMZoNEsJNJLFqTDHQhls664S4xcJ0G0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="IndyCore260.bpl" size="408064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KPvTL7F2pp1CJF8EBINvhtx78YpTmyU5mMmT0tl6J/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="IndyProtocols260.bpl" size="2649600">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UlnnjXymIpAED1rubJ0KaRzOz0IVQa7XV0S3mA7fwLc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="IndySystem260.bpl" size="316928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iAaKIQ2WANL4M/cJGTY42QmJ7NO81kcW82KvCCmz/Os=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="odac260.bpl" size="1538560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dfSyFDz5JIz5wsoqsGMIuyTml4XcrJP+udPeGD2SV6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="officeXPrt260.bpl" size="2137976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M8LAnYf3VEpVZM4zwk6Jg6wGk7nMZr7s98SPC7d9ODA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="rtl260.bpl" size="12994936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W80dTT87D+R1fQRnIhzfTlzfuhSrs7NtmpODHdk437I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SynEdit_R103R.bpl" size="2671104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>an4bvkBzcrc1aIrFkQlFPLGqz5mleGPay/gIZDk0764=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vcl260.bpl" size="4175224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hEqwF1BbbApUVUOLIw7iNf+qCVvbVXKUFFkwQ7LA+O0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vclactnband260.bpl" size="465784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vYC3rI/C+07P8ZI0MUOJwkot9cQ+gY+zE1XdrZnwAg8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vcldb260.bpl" size="406392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xOMku0DSbc4StR64UaivMnraqQocfP8KXHuXyHl4Dm0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vcldesigner260.bpl" size="294776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e/mVO+dPKvQC3MMzL0UNw/vd3qXVnx1V6ac7FaXkkGw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vclimg260.bpl" size="359800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sCeqnF+/wnp6Zi8K88ouN2M0Xrf4m2A7WNobxRfAUcg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vclx260.bpl" size="274808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iQC13chwG821FxaeaJrlWCfdBzCUVAxQa9u0C4POFgs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="xmlrtl260.bpl" size="2430840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XtGSrVBKLZWY+WaQ0TVCMleCxb/APzAd6/ovr6UaIgE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>
